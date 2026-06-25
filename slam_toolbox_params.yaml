@@ -1,0 +1,38 @@
+slam_toolbox:
+  ros__parameters:
+
+    use_sim_time: false
+
+    scan_topic: /merge/scan
+
+    base_frame: base_link
+    odom_frame: odom
+    map_frame: map
+
+    mode: mapping
+
+    resolution: 0.05
+
+    max_laser_range: 5.0
+
+    minimum_time_interval: 0.7
+
+    transform_timeout: 0.3
+
+    tf_buffer_duration: 30.0
+
+    map_update_interval: 3.0
+
+    transform_publish_period: 0.05
+
+    enable_interactive_mode: false
+    
+    throttle_scans: 3
+
+    minimum_travel_distance: 0.15
+    minimum_travel_heading: 0.15
+
+    scan_buffer_size: 5
+    scan_buffer_maximum_scan_distance: 5.0
+
+    debug_logging: false

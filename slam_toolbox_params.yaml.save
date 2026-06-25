@@ -1,0 +1,9 @@
+
+  ros__parameters:
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
+    mode: mapping
+    transform_timeout: 0.5
+    tf_buffer_duration: 30.0
